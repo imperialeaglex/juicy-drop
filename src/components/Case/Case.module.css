@@ -1,0 +1,219 @@
+.countButton {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #1B1C20;
+  font-weight: 500;
+  font-size: 13px;
+  color: #fff;
+  border: none;
+}
+
+.countButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.countDescription {
+  color: #717380;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.countHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.countContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.caseImg {
+  background: #141518;
+  border-radius: 6px;
+  width: 340px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  gap: 32px;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.caseName {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.backBtn {
+  width: 58px;
+  height: 58px;
+  border: none;
+  background: #141518;
+  border-radius: 6px;
+}
+
+.wrapper {
+  background: #121315;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+}
+
+.buyButtonContainer {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.buyButton {
+  background: #D06538;
+  border-radius: 6px;
+  width: 200px;
+  height: 58px;
+  border: none;
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+}
+
+.buyButtonRectangle {
+  width: 27px;
+  height: 1px;
+  background: #26282F;
+}
+
+.options {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main {
+  width: 100%;
+  display: grid;
+}
+
+.openFastTitle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #717380;
+}
+
+.openFastContainer {
+  margin-top: 25px;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.roulette {
+  background: #141518;
+  border-radius: 6px;
+  height: 250px;
+  margin-bottom: 25px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  gap: 6px;
+  align-items: center;
+}
+
+.rouletteContent {
+  display: flex;
+  overflow-x: visible;
+  gap: 10px;
+  transform: translateX(-6%);
+  align-items: center;
+}
+
+.rouletteFogLeft {
+  background: linear-gradient(90deg, #141518 0%, rgba(20, 21, 24, 0) 100%);
+  position: absolute;
+  left: 0;
+  height: 250px;
+  width: 64px;
+  z-index: 2;
+}
+
+.rouletteFogRight {
+  background: linear-gradient(90deg, #141518 0%, rgba(20, 21, 24, 0) 100%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  right: 0;
+  height: 250px;
+  width: 64px;
+  z-index: 2;
+}
+
+.fogImg {
+  position: absolute;
+  left: 40%;
+  top: 5px;
+}
+
+.rouletteTopIcon {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.rouletteBottomIcon {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.caseContentRectangleLeft {
+  height: 1px;
+  width: 27px;
+  background: #26282F;
+}
+
+.caseContentRectangleRight {
+  height: 1px;
+  width: 100%;
+  background: #26282F;
+}
+
+.caseContentTitle {
+  display: flex;
+  gap: 10px;
+  white-space: nowrap;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.caseContent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+}

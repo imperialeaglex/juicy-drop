@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.rectangle {
+  height: 16px;
+  width: 1px;
+  background: #23252E;
+}

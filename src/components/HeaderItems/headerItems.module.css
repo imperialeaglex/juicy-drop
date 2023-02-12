@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  overflow-x: hidden;
+  gap: 2px;
+  position: relative;
+}
+
+.fog {
+  position: absolute;
+  width: 167px;
+  height: 115px;
+  background: linear-gradient(270deg, #121315 0%, rgba(18, 19, 21, 0) 81.44%, rgba(18, 19, 21, 0) 81.44%);
+  right: 0;
+}

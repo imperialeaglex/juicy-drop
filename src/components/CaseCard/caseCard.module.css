@@ -1,0 +1,73 @@
+.currentPrice {
+  background: #343323;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  min-width: 70px;
+  min-height: 33px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priceContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.oldPrice {
+  color: #EA4723;
+  text-decoration: line-through;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 800;
+  font-family: 'Manrope', serif;
+  font-size: 16px;
+  gap: 10px;
+  position: relative;
+}
+
+.cardContainer:hover {
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+}
+
+.count {
+  font-weight: 600;
+  font-size: 13px;
+  font-family: 'Poppins', serif;
+  color: #AEAEB9;
+}
+
+.availableCount {
+  color: #CC9A4F;
+}
+
+.totalCount {
+  color: #AEAEB9;
+}
+
+.countContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.disabled {
+  opacity: 0.3;
+}

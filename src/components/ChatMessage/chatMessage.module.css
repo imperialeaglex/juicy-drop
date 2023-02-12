@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.nameAndTime {
+  display: flex;
+  justify-content: space-between;
+  color: #717380;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.message {
+  color: #DDDFEC;
+  font-weight: 400;
+  font-size: 14px;
+}

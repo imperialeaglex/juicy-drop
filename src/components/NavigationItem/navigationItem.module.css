@@ -1,0 +1,36 @@
+.container {
+  height: 100px;
+  position: relative;
+  display: flex;
+  padding: 20px;
+  gap: 8px;
+  align-items: center;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.rectangle {
+  height: 2px;
+  width: 16px;
+  background: #ED174A;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 13px;
+  color: #717380;
+}
+
+.active {
+  color: #ED174A;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}

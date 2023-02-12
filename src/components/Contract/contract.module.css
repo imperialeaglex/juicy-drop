@@ -1,0 +1,188 @@
+.heading {
+  font-size: 23px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.contractFields {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  margin: 0 auto;
+  gap: 30px;
+  place-items: center;
+}
+
+.contractBg {
+  position: absolute;
+  height: 800px;
+  width: 100%;
+  z-index: -1;
+}
+
+.contractStatusContainer {  
+  position: relative;
+  background: rgba(23, 24, 27, 0.9);
+  border-radius: 6px;
+  width: 395px;
+  height: 82px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.contractStatusBg {
+  position: absolute;
+  filter: blur(9px);
+  border-radius: 6px;
+  width: 395px;
+  height: 60px;
+  top: 15px;
+  z-index: -1;
+}
+
+.underContract {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px auto 0;
+}
+
+.selectedItemCount {
+  font-weight: 800;
+  font-size: 20px;
+  color: #557CFF;
+}
+
+.white {
+  color: #fff;
+}
+
+.left {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.currentSum {
+  font-weight: 800;
+  font-size: 20px;
+  color: #00B876;
+}
+
+.contractStatusDescription {
+  color: #ADB2C2;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.createContractContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  gap: 30px;
+}
+
+.createContractButton {
+  background: #004A54;
+  border-radius: 6px;
+  width: 241px;
+  height: 58px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  border: none;
+  transition-duration: 0.2s;
+}
+
+.earnValue {
+  padding: 22px 38px;
+  border: 1px dashed #1F2228;
+  border-radius: 6px;
+}
+
+.earnValue {
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.earnDescription {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ADB2C2;
+}
+
+.earnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.itemsForContractRectangleLeft {
+  height: 1px;
+  width: 27px;
+  background: #26282F;
+}
+
+.itemsForContractRectangleRight {
+  height: 1px;
+  width: 100%;
+  background: #26282F;
+}
+
+.itemsForContractTitle {
+  display: flex;
+  gap: 10px;
+  white-space: nowrap;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  max-width: 1100px;
+  width: 100%;
+  margin: 100px auto 50px;
+}
+
+.contractItems {
+  max-width: 1100px;
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto 70px;
+}
+
+.createContractButton:hover {
+  background: #5472BE;
+}
+
+.createContractButton:active {
+  background: #3A5CB1;
+}

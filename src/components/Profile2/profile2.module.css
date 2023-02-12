@@ -1,0 +1,387 @@
+.topRow {
+  width: 1300px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 2fr 1fr 1fr;
+  position: relative;
+  margin: 40px auto 0;
+}
+
+.about {
+  background: rgba(20, 21, 23, 0.6);
+  backdrop-filter: blur(6px);
+  border-radius: 6px;
+  min-height: 226px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.profileBg {
+  position: absolute;
+  z-index: -1;
+  top: -40px;
+}
+
+.loveCase {
+  display: flex;
+  flex-direction: column;
+}
+
+.loveCaseHeading {
+  font-weight: 800;
+  font-size: 13px;
+  color: #fff;
+}
+
+.loveCaseName {
+  font-weight: 800;
+  font-size: 13px;
+  color: #A0BEDA;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.nameAndBalance {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.balance {
+  color: #C2AC5B;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.mainInfo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.steamButton {
+  font-weight: 800;
+  font-size: 14px;
+  color: #79AFFF;
+  max-width: 170px;
+  width: 100%;
+  height: 43px;
+  background: #1E2231;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  gap: 10px;
+  transition-duration: 0.2s;
+}
+
+.steamButton:hover {
+  background: #202F56;
+}
+
+.steamButton:active {
+  background: #294186;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.statHeader {
+  display: flex;
+  gap: 7px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #C3D3DE;
+}
+
+.statValue {
+  background: #1B1D21;
+  border-radius: 6px;
+  min-width: 100px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.loveCaseImage {
+  width: 55%;
+  align-self: center;
+}
+
+.loveCase {
+  width: 100%;
+  height: 226px;
+  background: #17181C;
+  border-radius: 6px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.loveDrop {
+  width: 100%;
+  height: 226px;
+  background: #17181C;
+  border-radius: 6px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.loveDropHeading {
+  font-weight: 800;
+  font-size: 13px;
+  color: #fff;
+}
+
+.loveDropType {
+  color: #EB4C4C;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.loveDropName {
+  color: #646465;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.loveDropImage {
+  width: 80%;
+  align-self: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.navButton {
+  background: #16181F;
+  border-radius: 6px;
+  height: 58px;
+  min-width: 150px;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  color: #717380;
+}
+
+.navValue {
+  background: #252931;
+  border-radius: 6px;
+  padding: 3px 8px;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+  align-self: center;
+}
+
+.navWrapper {
+  background: #121315;
+  width: 100%;
+  padding: 30px;
+}
+
+.itemsContainer {
+  background: rgba(23, 24, 28, 0.45);
+  width: 100%;
+}
+
+.itemsBg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+
+.noItemsTitle {
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+}
+
+.noItemsDescription {
+  font-family: 'Inter', serif;
+  color: #717380;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.refLinkContainer {
+  background: #141518;
+  border-radius: 6px;
+  width: 500px;
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter', serif;
+}
+
+.copyIcon {
+  position: absolute;
+  right: 21px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ref {
+  display: flex;
+  flex-direction: column;
+  background: #131417;
+  gap: 15px;
+  width: 1300px;
+  padding: 32px;
+}
+
+.refHeading {
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+}
+
+.refYourRef {
+  font-weight: 400;
+  font-size: 14px;
+  color: #717380;
+}
+
+.refTableHeadings {
+  padding-left: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+}
+
+.refTableHeading {
+  color: #717380;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter', serif;
+}
+
+.refTable {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.navWrapper2 {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sellAllButton {
+  background: #004D95;
+  border-radius: 6px;
+  width: 200px;
+  height: 58px;
+  font-weight: 800;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.2s;
+  border: none;
+}
+
+.sellContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.availableForSell {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.itemsContainerContent {
+  max-width: 1300px;
+  display: grid;
+  gap: 33px;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0 auto;
+}
+
+.sellAllButton:hover {
+  background: #003584;
+}
+
+.sellAllButton:active {
+  background: #012560;
+}
+
+.addBalance {
+  background: #7B6A3D;
+  font-weight: 800;
+  font-size: 14px;
+  color: #fff;
+  max-width: 158px;
+  height: 43px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  gap: 10px;
+  width: 100%;
+  transition-duration: 0.2s;
+}
+
+.addBalance:hover {
+  background: #897F4B;
+}
+
+.addBalance:active {
+  background: #625935;
+}
+
+.copyLink {
+  border: none;
+  background: transparent;
+}

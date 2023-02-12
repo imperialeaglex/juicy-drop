@@ -1,0 +1,267 @@
+.header {
+  width: 100%;
+  display: flex;
+  min-height: 100px;
+  align-items: center;
+  position: relative;
+  gap: 2px;
+}
+
+.online {
+  color: #717380;
+}
+
+.onlineContainer {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.onlineWrapper {
+  display: flex;
+  align-items: center;
+  background: rgba(32, 35, 39, 0.15);
+  height: 100px;
+  padding: 0 20px;
+}
+
+.soundWrapper {
+  display: flex;
+  align-items: center;
+  background: rgba(32, 35, 39, 0.15);
+  height: 100px;
+  padding: 0 20px;
+  gap: 15px;
+}
+
+.languageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+  height: 100px;
+  background: rgba(32, 35, 39, 0.15);
+}
+
+.languageName {
+  color: #fff;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.loginWithSteam {
+  background: #ED174A;
+  border-radius: 6px;
+  width: 223px;
+  height: 58px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  transition-duration: 0.2s;
+}
+
+.loginWithSteam:hover {
+  background: #C80A38;
+}
+
+.loginWithSteam:active {
+  background: #AD092F;
+}
+
+.sound:hover {
+  cursor: pointer;
+}
+
+.soundOff {
+  color: #ED174A;
+}
+
+.addButton {
+  width: 37px;
+  height: 37px;
+  background: #25282D;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.balance {
+  color: #C2AC5B;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.balanceContainer {
+  display: flex;
+  padding: 13px 5px 13px 20px;
+  border: 1px dashed #3A3B45;
+  border-radius: 6px;
+  gap: 20px;
+  align-items: center;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.username {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.logoutButton {
+  border: none;
+  background: transparent;
+}
+
+.paymentDialog {
+  position: absolute;
+  width: 968px;
+  height: 692px;
+  background: #151821;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  z-index: 1001;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.paymentInnerDialog {
+  border-radius: 15px;
+  background: rgba(30, 33, 44, 0.43);
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.paymentSelectCategoryButton {
+  padding: 13px 35px;
+  border: 1px solid #3F4350;
+  border-radius: 10px;
+  background: none;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Inter', serif;
+  color: #fff;
+}
+
+.paymentSelectCategories {
+  display: flex;
+  gap: 15px;
+}
+
+.paymentHeading {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.paymentButton {
+  background: #262932;
+  border-radius: 12px;
+  width: 145px;
+  height: 119px;
+  border: none;
+  margin-top: 30px;
+}
+
+.paymentButtons {
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+  grid-template-columns: repeat(5, 145px);
+  grid-template-rows: repeat(2, 119px);
+}
+
+.paymentDetails {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.sumOfPaymentTitle {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Inter', serif;
+}
+
+.sumOfPaymentInput {
+  width: 243px;
+  height: 52px;
+  background: #171921;
+  border: 1px dashed #2A2D38;
+  border-radius: 10px;
+  color: #fff;
+  padding: 18px 24px;
+}
+
+.promoInput {
+  width: 426px;
+  height: 52px;
+  background: #171921;
+  border: 1px dashed #2A2D38;
+  border-radius: 10px;
+  color: #fff;
+  padding: 18px 24px;
+}
+
+.promoInput::placeholder {
+  color: #fff;
+}
+
+.paymentFinalButton {
+  width: 842px;
+  height: 53px;
+  background: #629E6F;
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: 'Inter', serif;
+  font-size: 13px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.closeButton {
+  border: none;
+  background: #fff;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
